@@ -1,0 +1,6 @@
+terraform*
+.terraform*
+tfplan
+builds
+*.zip
+layer/python/python*
