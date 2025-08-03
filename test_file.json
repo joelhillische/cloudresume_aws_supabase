@@ -1,0 +1,512 @@
+{
+  "jobs": [
+    {
+      "_id": "688c9b8e38f5d5ee4295d9e0",
+      "company_name": "Acquia",
+      "job_title": "Senior Software Engineer",
+      "description": "<p>Acquia is seeking a Senior Software Engineer to design and implement solutions for modernizing Acquia infrastructure and drive adoption of Kubernetes and Cloud-Native Technologies.</p><h2>Requirements</h2><ul><li>5+ years of experience in design and Software Development Background</li><li>2+ years of experience in working with Containers and Cloud-Native Development</li><li>Proficient with Kubernetes/Swarm architecture</li><li>Experience in developing applications using programming languages such as Go, Python, Ruby and shell scripting</li><li>Proficient with object oriented programming and microservices design patterns</li><li>Experience working with AWS services such as - EC2, EBS, ALB, EKS, VPC, S3, WAF etc.</li></ul><h2>Benefits</h2><ul><li>Competitive healthcare coverage</li><li>Wellness programs</li><li>Take it when you need it time off</li><li>Parental leave</li><li>Recognition programs</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/acquia/jobs/7117169",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 5,
+        "max": 5
+      },
+      "salary_range": null,
+      "date_posted": "2025-08-01",
+      "company_link": "www.acquia.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGuK8EOQfx4uA/company-logo_200_200/company-logo_200_200/0/1719839383975/acquia_logo?e=2147483647&v=beta&t=wmkpXnmR1DuFvoO06lKNRjblLS8Gi7mxBtOtzcg88Os",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/acquia",
+      "requirements_summary": "BS in Computer Science or comparable field of study, or equivalent practical experience. Proficient with Kubernetes/Swarm architecture, AWS services, Go, Python, Ruby, shell scripting, object oriented programming, microservices design patterns, CI/CD tools, configuration management tools, network layers, TCP/IP, load balancing, security, operating production environments",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Acquia is a leading provider of digital experience platforms (DXP) built on open source Drupal. The company offers comprehensive solutions including technical support, managed hosting, and software-as-a-service for enterprises. Acquia's platform accelerates time to market, enhances engagement, and drives revenue through advanced personalization and customer data management, making it a distinctive player in the digital innovation space.",
+        "linkedin_link": "https://www.linkedin.com/company/acquia",
+        "size_range": {
+          "min": 1001,
+          "max": 5000
+        },
+        "industries": [
+          "Tech, Software & IT Services",
+          "Media & Communications"
+        ],
+        "subindustries": ["Digital Media", "Enterprise Software & Solutions"]
+      },
+      "company_slug": "acquia",
+      "job_slug": "senior-software-engineer",
+      "locations": [
+        {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "India"
+        },
+        {
+          "city": "Delhi",
+          "region": "Delhi",
+          "country": "India"
+        }
+      ],
+      "meta": "COCYdhoCYAEaDDoKMjAyNS0wOC0wMSIOWgxojJuOOPXV7kKV2eA=",
+      "score": 9.18330192565918
+    },
+    {
+      "_id": "688c8fc34d8603e4e9241d22",
+      "company_name": "Replicant",
+      "job_title": "Software Engineer, Call Intelligence",
+      "description": "<p>Replicant is a company that believes AI should work for people, starting with customer service. They built a platform that helps contact centers resolve more requests, proactively identify issues, and improve agent performance with AI-powered conversation intelligence and AI agents.</p><h2>Requirements</h2><ul><li>2-4+ years of software development experience in a SaaS environment</li><li>Experience with TypeScript, Node.js, React, and PostgreSQL</li><li>Excellent communication skills</li><li>Experience building user interfaces</li><li>Experience with LLM prompt tuning, Python, Google Cloud Services, Kubernetes (optional)</li></ul><h2>Benefits</h2><ul><li>Remote working environment</li><li>Highly competitive salaries</li><li>Equity</li><li>401(k) plan for US Employees</li><li>Top of the line healthcare</li><li>Health and Wellness Perk</li><li>Equipment Stipend</li><li>Flexible vacation policy</li><li>Team trips & offsites</li><li>5-week sabbatical after 4.5 years of service</li></ul>",
+      "application_link": "https://jobs.ashbyhq.com/replicant/0e0f1bda-ddfa-4973-a577-81545a6f79b9",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 2,
+        "max": 4
+      },
+      "salary_range": null,
+      "date_posted": "2025-08-01",
+      "company_link": null,
+      "company_logo": null,
+      "job_board": "Ashby",
+      "job_board_link": "https://jobs.ashbyhq.com/replicant",
+      "requirements_summary": "2-4+ years of software development experience, experience with TypeScript, Node.js, React, and PostgreSQL, excellent communication skills",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Replicant specializes in artificial intelligence solutions tailored for contact centers. Their core products and services are designed to enhance operational efficiency, improve customer interactions, and drive business growth. Replicant stands out by offering cutting-edge AI technologies that are easy to integrate and provide measurable ROI, making them a trusted partner for modern contact center operations.",
+        "linkedin_link": "https://www.linkedin.com/company/replicant",
+        "size_range": {
+          "min": 51,
+          "max": 200
+        },
+        "industries": ["Tech, Software & IT Services"],
+        "subindustries": ["AI & ML"]
+      },
+      "company_slug": "replicant",
+      "job_slug": "software-engineer-call-intelligence",
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States"
+        }
+      ],
+      "meta": "CIeUlwEaAmABGgw6CjIwMjUtMDgtMDEiDloMaIyPw02GA+TpJB0i",
+      "score": 8.78254508972168
+    },
+    {
+      "_id": "688c94fad749955ad21ee7ef",
+      "company_name": "Getty Images",
+      "job_title": "ETL Software Engineer",
+      "description": "<p>As an ETL Software Engineer, you will work to the top of coding standards, continuous integration, and continuous delivery methodologies. You will be responsible for developing end-to-end solutions to resolve scaling & distribution architectural problems and push for improvement to our process and results.</p><h2>Requirements</h2><ul><li>Bachelor’s degree, or foreign equivalent, in Information Systems, Computer Science, or a closely related field of study</li><li>1 year of experience in the job offered or a related occupation in which the required experience was gained</li><li>1 year of experience with Kafka; Spark; SQL Server or MySQL; MongoDB or ElasticSearch; C#, Java, Python, or Scala; AWS Technologies (Elastic Map Reduce, Simple Storage Service, and Managed Workflows for Apache Airflow); Docker and Enterprise Container Service; Agile development practices, including Paired Programming; and Git-based code repository and continuous integration pipelines.</li></ul><h2>Benefits</h2><ul><li>Participation in the company incentive program</li><li>Equity</li><li>Benefits package which is inclusive of medical, dental, vision, 401(k) match, paid company holidays and time off, and paid parental leave</li></ul>",
+      "application_link": "https://jobs.lever.co/gettyimages/8f4d839f-03a1-4bf5-9287-ec5cbf6d7fcc",
+      "job_categories": ["Information Technology Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 1,
+        "max": 1
+      },
+      "salary_range": {
+        "min": 110635,
+        "max": 142500,
+        "currency": "USD",
+        "period": "year"
+      },
+      "date_posted": "2025-07-31",
+      "company_link": "https://jobs.lever.co/gettyimages",
+      "company_logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/d3e65061-4ce8-4f47-a745-9cfe59ca9443-1709069572328.png",
+      "job_board": "Lever",
+      "job_board_link": "https://jobs.lever.co/gettyimages",
+      "requirements_summary": "Bachelor’s degree in Information Systems, Computer Science, or a closely related field of study, 1 year of experience in ETL development, and strong knowledge of Kafka, Spark, and AWS technologies",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Getty Images is a leading global visual content marketplace offering imagery, footage, music, and video services through brands like Getty Images, iStock, and Unsplash. With over 583,000 content creators and an extensive archive of millions of images, Getty Images provides comprehensive coverage for news, sports, entertainment, and editorial needs. The company's integration of generative AI technologies allows customers to create safe and compelling visuals, setting it apart with innovative tools and a vast creative library.",
+        "linkedin_link": "https://www.linkedin.com/company/getty-images",
+        "size_range": {
+          "min": 1001,
+          "max": 5000
+        },
+        "industries": ["Media & Communications", "Design"],
+        "subindustries": ["Digital Media", "Graphic Design"]
+      },
+      "company_slug": "getty-images",
+      "job_slug": "etl-software-engineer",
+      "locations": [
+        {
+          "city": "Chicago",
+          "region": "Illinois",
+          "country": "United States"
+        }
+      ],
+      "meta": "CI2YcBoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJT610mVWtIe5+8=",
+      "score": 8.976822853088379
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295d858",
+      "company_name": "Sezzle",
+      "job_title": "Junior Software Engineer with Accounting Experience (LATAM)",
+      "description": "<p>Sezzle is seeking a talented Junior Software Engineer with accounting experience to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. The role involves designing, developing, and installing software solutions, leveraging accounting background to improve automation and reconciliation workflows.</p><h2>Requirements</h2><ul><li>Prior experience as an accountant or financial analyst</li><li>Solid understanding of financial operations such as reconciliation, reporting, and compliance</li><li>Proficient in at least one programming language (e.g., Python, Java, Go) and familiar with database systems like MySQL or PostgreSQL</li><li>Experience with backend API development</li><li>Experience with relational database storage and retrieval</li><li>Familiarity with software engineering tools, software development methodology, and release processes</li><li>Bachelor’s degree in Accounting, Computer Science, or a related field</li></ul><h2>Benefits</h2><ul><li>Competitive salary</li><li>Flexible work environment</li><li>Opportunities for career advancement</li><li>Professional development opportunities</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/sezzle/jobs/6668065003",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 1,
+        "max": 3
+      },
+      "salary_range": null,
+      "date_posted": "2025-07-31",
+      "company_link": "sezzle.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEv2WrQrWZM-A/company-logo_200_200/company-logo_200_200/0/1630615785657/sezzle_logo?e=2147483647&v=beta&t=-GLqUmOJNQZqysrk3MSxpSuSJ9FADa92zE77mXybH5Q",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/sezzle",
+      "requirements_summary": "Accounting background, prior experience as an accountant or financial analyst, proficiency in at least one programming language",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Sezzle is a mission-driven fintech company that offers interest-free installment plans to enhance online and in-store purchasing power. As a B Corp, Sezzle focuses on transparency and inclusivity, providing consumers with tools to manage spending and work toward financial independence. The company's unique approach to alternative credit and consumer financing sets it apart in the industry.",
+        "linkedin_link": "https://www.linkedin.com/company/sezzle",
+        "size_range": {
+          "min": 201,
+          "max": 500
+        },
+        "industries": ["Finance", "Retail"],
+        "subindustries": ["Fintech", "Credit & Lending"]
+      },
+      "company_slug": "sezzle",
+      "job_slug": "junior-software-engineer-with-accounting-experience-latam",
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Latin America"
+        }
+      ],
+      "meta": "CKWIdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV2Fg=",
+      "score": 8.09282398223877
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295d62d",
+      "company_name": "Telnyx",
+      "job_title": "Software Engineer, Python (Remote)",
+      "description": "<p>Telnyx is seeking a passionate Software Engineer, Python to join their team. The role involves designing and building highly available low latency microservices using the latest technologies. The successful candidate will have 3+ years of experience in Python and a strong grasp of async Python frameworks, relational databases, and microservice architecture.</p><h2>Requirements</h2><ul><li>3+ years of professional software development experience in Python</li><li>Experience with web application development and microservice architecture</li><li>Strong grasp of async Python frameworks (e.g. FastAPI, asyncio, aiohttp)</li><li>Comfortable working with relational databases at scale.</li><li>Experience in a highly-available, uptime-critical production environment.</li><li>Deep knowledge of microservice architecture patterns and anti-patterns.</li><li>Strong understanding of RESTful API design and distributed systems.</li><li>Familiarity with Docker, Kubernetes, Consul, Jenkins, Prometheus, or RabbitMQ.</li><li>Exposure to AI/ML pipelines or experience integrating ML models into production systems.</li><li>Excellent communication skills and the ability to work cross-functionally</li><li>Fluent English</li></ul><h2>Benefits</h2><ul><li>Bonus Points For</li><li>You take a thoughtful approach to decision making, knowing when to move fast and when to long-term optimize.</li><li>You want to work in a fast-paced, product-driven environment.</li><li>You keep up to date with the latest technologies and patterns, and enjoy sharing what you’ve learned.</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/telnyx54/jobs/6664706003",
+      "job_categories": ["Information Technology Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 3,
+        "max": 3
+      },
+      "salary_range": null,
+      "date_posted": "2025-07-31",
+      "company_link": "www.telnyx.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHF1tOUxMzOcA/company-logo_200_200/company-logo_200_200/0/1678193342702/telnyx_logo?e=2147483647&v=beta&t=nI0V3zMWdx67sV5g6-1G06iEnwpuogH3A1yF1g_uGS4",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/telnyx54",
+      "requirements_summary": "3+ years of experience in Python, experience with web application development and microservice architecture, strong grasp of async Python frameworks",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Telnyx is a full-stack platform for real-time conversational AI, offering global telephony, dedicated AI infrastructure, and customizable solutions. It enables teams to build and deploy intelligent voice experiences efficiently, with features like low-latency voice streaming, multi-language support, and seamless scalability. Telnyx's unified platform streamlines development and ensures high performance without the need for multiple providers.",
+        "linkedin_link": "https://www.linkedin.com/company/telnyx",
+        "size_range": {
+          "min": 201,
+          "max": 500
+        },
+        "industries": [
+          "Tech, Software & IT Services",
+          "Media & Communications"
+        ],
+        "subindustries": ["AI & ML", "Networking & Communications"]
+      },
+      "company_slug": "telnyx",
+      "job_slug": "software-engineer-python-remote",
+      "locations": [
+        {
+          "city": "Dublin",
+          "region": "Leinster",
+          "country": "Ireland"
+        },
+        {
+          "city": "Amsterdam",
+          "region": "North Holland",
+          "country": "Netherlands"
+        },
+        {
+          "city": "Krakow",
+          "region": "Lesser Poland",
+          "country": "Poland"
+        },
+        {
+          "city": "United States",
+          "region": null,
+          "country": "United States"
+        }
+      ],
+      "meta": "CNCMdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV1i0=",
+      "score": 9.859546661376953
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295d493",
+      "company_name": "Twilio",
+      "job_title": "Software Engineer (L2)",
+      "description": "<p>Join Twilio's team as a Software Engineer (L2) to help build a scalable platform for managing and operating network infrastructure. As a member of the Network Infrastructure Platform team, you will be responsible for building and integrating high-standard tools for managing the global network. You will work with a passionate, versatile, and collaborative team to tackle complex problems in distributed computing and infrastructure management.</p><h2>Requirements</h2><ul><li>Proficiency with one or more programming languages: Python, Java, and Go</li><li>Experience with different architectures and services running on public cloud infrastructure at scale (AWS preferred)</li><li>Deep familiarity with Linux, bash scripting, service configuration, and management</li><li>Effective and assertive communication and strong collaboration skills</li><li>Skills to work independently with multiple global teams, developing, configuring, deploying, and operating the global infrastructure for Twilio Network’s Platform</li></ul><h2>Benefits</h2><ul><li>Competitive pay</li><li>Generous time off</li><li>Ample parental and wellness leave</li><li>Healthcare</li><li>Retirement savings program</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/twilio/jobs/7103535",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 1,
+        "max": 1
+      },
+      "salary_range": {
+        "min": 114600,
+        "max": 143300,
+        "currency": "USD",
+        "period": "year"
+      },
+      "date_posted": "2025-07-31",
+      "company_link": "www.twilio.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQEmISp-ciExQw/company-logo_200_200/B56ZYyhH7TGoAM-/0/1744604267044/twilio_inc__logo?e=2147483647&v=beta&t=SDaGt4k_P2X2TJoXvK9NiOb788rpbVRthBM_XuFbsUg",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/twilio",
+      "requirements_summary": "Bachelor's degree required, or equivalent experience. 1+ years of experience in a DevOps/Software Development environment",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Twilio is a leading Customer Engagement Platform (CEP) that empowers companies to build direct, personalized relationships with customers worldwide. Offering a suite of telecommunications services including APIs, cloud communications, SMS, voice, and VoIP, Twilio enables secure and intelligent customer interactions across various stages of the journey. With its global reach and developer-friendly tools, Twilio helps millions of developers and hundreds of thousands of businesses create exceptional customer experiences.",
+        "linkedin_link": "https://www.linkedin.com/company/twilio-inc-",
+        "size_range": {
+          "min": 5001,
+          "max": 10000
+        },
+        "industries": [
+          "Tech, Software & IT Services",
+          "Media & Communications"
+        ],
+        "subindustries": ["Networking & Communications", "Cloud Technologies"]
+      },
+      "company_slug": "twilio",
+      "job_slug": "software-engineer-l2-8",
+      "locations": [
+        {
+          "city": null,
+          "region": "N/A",
+          "country": "United States"
+        },
+        {
+          "city": null,
+          "region": "N/A",
+          "country": "United States"
+        }
+      ],
+      "meta": "COqPdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV1JM=",
+      "score": 9.039972305297852
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295da7f",
+      "company_name": "Nearform",
+      "job_title": "Senior Python GenAI Software Engineer (Contract, Poland, Remote)",
+      "description": "<p>We are looking for a Senior Python GenAI Software Engineer to join our team in Poland. As a Senior Python GenAI Developer, you will design and build applications using Python and GenAI tools, collaborating with distributed teams to build secure, high-performance applications.</p><h2>Requirements</h2><ul><li>Significant experience delivering at a Senior Developer level in an enterprise environment.</li><li>Practical experience of delivering in an agile environment.</li><li>Deep understanding of Python.</li><li>Deep understanding of SQL Databases (PostgreSQL is preferred).</li><li>Experience with LangChain, AutoGen, or similar frameworks for multi-agent systems.</li><li>Deep understanding of versioning control tools - Git in particular.</li><li>Good understanding of security and performance considerations.</li><li>Understanding of layout aesthetics, responsive design and mobile web development.</li><li>Understanding of architectural and design patterns.</li><li>General familiarity with a wide variety of open-source technologies and tools.</li><li>Excellent analytical and multitasking skills.</li><li>Excellent communication and collaboration skills.</li><li>Professional proficiency in English.</li></ul><h2>Benefits</h2><ul><li>Competitive salary</li><li>Flexible working hours</li><li>Opportunity to work with cutting-edge technologies</li><li>Collaborative and dynamic work environment</li><li>Professional development and growth opportunities</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/nearform/jobs/6664605003",
+      "job_categories": [
+        "Software Engineer Jobs",
+        "Information Technology Jobs"
+      ],
+      "job_type": "Contract / Temporary",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 5,
+        "max": 5
+      },
+      "salary_range": null,
+      "date_posted": "2025-07-31",
+      "company_link": "www.nearform.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEl6lhiUVLkjg/company-logo_200_200/B4EZfFYJoeHwAU-/0/1751363132302/nearform_logo?e=2147483647&v=beta&t=JklhepXDtW-GVqaj6EdRbZgKrhudPpQLKSKWUL-ctJM",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/nearform",
+      "requirements_summary": "5+ years of experience in enterprise environment, deep understanding of Python, SQL Databases, and versioning control tools",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Nearform is an independent team of data & AI experts, engineers, and designers specializing in building intelligent digital solutions at pace. With a deep expertise in solving complex digital problems and a collaborative, people-first approach, Nearform empowers enterprises to build breakthrough products and modernize legacy systems using AI. Trusted by leading companies like Lululemon and Walmart, Nearform offers a wide range of services including strategy consulting, product design, intelligent apps, data engineering, and more.",
+        "linkedin_link": "https://www.linkedin.com/company/nearform",
+        "size_range": {
+          "min": 201,
+          "max": 500
+        },
+        "industries": ["Tech, Software & IT Services"],
+        "subindustries": ["AI & ML", "Data Management & Analytics"]
+      },
+      "company_slug": "nearform",
+      "job_slug": "senior-python-genai-software-engineer-contract-poland-remote",
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Poland"
+        }
+      ],
+      "meta": "CMGXdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV2n8=",
+      "score": 8.930513381958008
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295da70",
+      "company_name": "AppLovin",
+      "job_title": "Software Engineer Intern",
+      "description": "<p>AppLovin is seeking a motivated and talented Software Engineering Intern to join our dynamic engineering team. As an intern, you will gain hands-on experience in developing and maintaining software solutions that power our AdTech and CTV platforms.</p><h2>Requirements</h2><ul><li>Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field.</li><li>Strong programming skills in languages such as Python, JavaScript.</li><li>Understanding of common data structures and algorithms.</li><li>Familiarity with web development technologies frameworks (e.g., React, Angular, or Vue.js).</li><li>Knowledge of database systems (SQL).</li><li>Understanding of software development methodologies and tools (e.g., Agile, Git).</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Passion for technology and a desire to learn and grow in a fast-paced environment.</li></ul><h2>Benefits</h2><ul><li>Paid internship ($30/hr) with flexible scheduling.</li><li>Remote-first work culture and support.</li><li>Mentorship from experienced engineers and product experts.</li></ul>",
+      "application_link": "https://boards.greenhouse.io/applovin/jobs/4552288006?gh_jid=4552288006",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Internship",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 0,
+        "max": 0
+      },
+      "salary_range": {
+        "min": 60000,
+        "max": 60000,
+        "currency": "USD",
+        "period": "year"
+      },
+      "date_posted": "2025-07-31",
+      "company_link": "www.applovin.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQE3sdSLiWj6Rw/company-logo_200_200/company-logo_200_200/0/1710259773441/applovin_logo?e=2147483647&v=beta&t=JKrUbBWcHVkrhQ-grEpS9nbWbGj_MA4D4RKq5vReApo",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/applovin",
+      "requirements_summary": "Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field. Strong programming skills in languages such as Python, JavaScript. Passion for technology and a desire to learn and grow in a fast-paced environment",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "AppLovin is a leading provider of end-to-end software and AI solutions designed to help businesses connect with and monetize their global audiences. Specializing in mobile games, apps, marketing, and developer tools, AppLovin offers comprehensive services that enable brands to reach, engage, and grow their customer base effectively.",
+        "linkedin_link": "https://www.linkedin.com/company/applovin",
+        "size_range": {
+          "min": 501,
+          "max": 1000
+        },
+        "industries": [
+          "Tech, Software & IT Services",
+          "Media & Communications"
+        ],
+        "subindustries": ["AI & ML", "Digital Media"]
+      },
+      "company_slug": "applovin",
+      "job_slug": "software-engineer-intern",
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States"
+        }
+      ],
+      "meta": "CNCXdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV2nA=",
+      "score": 9.039972305297852
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295d9ed",
+      "company_name": "Instacart",
+      "job_title": "Senior Software Engineer, Commerce Platform",
+      "description": "<p>Instacart is a Flex First team that offers a remote work policy. The company is transforming the grocery industry and is looking for a Senior Software Engineer to join the Commerce Platform team. The role involves implementing robust back-end services and APIs, optimizing applications for peak performance and scalability, and designing scalable and low-latency back-end architectures.</p><h2>Requirements</h2><ul><li>Bachelor's degree in Computer Science or Computer Engineering</li><li>5+ years with back-end development</li><li>3+ years with system design and architecture</li><li>Proficient in backend languages like Ruby, Python, Java</li><li>Experienced working with database systems such as PostgreSQL, MongoDB, or MySQL</li><li>Experienced using caching mechanisms like Memcached or Redis</li><li>Experience with high scale throughput and distributed systems problems</li><li>Strong ownership mindset</li></ul><h2>Benefits</h2><ul><li>Highly market-competitive compensation</li><li>Benefits in each location where our employees work</li><li>New hire equity grant</li><li>Annual refresh grants</li></ul>",
+      "application_link": "https://instacart.careers/job/?gh_jid=6920153",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 5,
+        "max": 6
+      },
+      "salary_range": {
+        "min": 162000,
+        "max": 217000,
+        "currency": "USD",
+        "period": "year"
+      },
+      "date_posted": "2025-07-31",
+      "company_link": "www.instacart.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHF65cU34mbxw/company-logo_200_200/company-logo_200_200/0/1648482786064/instacart_logo?e=2147483647&v=beta&t=xNH4ObZeRub4iXUiYehhhqdfRkjv75g4HF2VX89Hh0k",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/instacart",
+      "requirements_summary": "Bachelor's degree in Computer Science or Computer Engineering, 5+ years with back-end development, 3+ years with system design and architecture",
+      "visa_sponsored": false,
+      "company_data": {
+        "description_summary": "Instacart is a leading grocery technology company in North America that partners with over 1,500 retailers to offer online shopping, delivery, and pickup services from more than 85,000 stores. The company empowers millions of shoppers to get groceries from their favorite retailers and provides flexible earning opportunities for approximately 600,000 Instacart shoppers. Instacart also offers a suite of enterprise-grade technology products and services to help retailers enhance their e-commerce experiences and connect directly with consumers through Instacart Ads and Instacart Health.",
+        "linkedin_link": "https://www.linkedin.com/company/instacart",
+        "size_range": {
+          "min": 1001,
+          "max": 5000
+        },
+        "industries": ["Retail", "Tech, Software & IT Services"],
+        "subindustries": [
+          "E-Commerce & Internet Services",
+          "Retail & Point of Sale Technology"
+        ]
+      },
+      "company_slug": "instacart",
+      "job_slug": "senior-software-engineer-commerce-platform-5",
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States"
+        }
+      ],
+      "meta": "CNOYdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV2e0=",
+      "score": 8.444311141967773
+    },
+    {
+      "_id": "688c9b8e38f5d5ee4295d9db",
+      "company_name": "Censys",
+      "job_title": "Senior Software Engineer, Distributed Systems",
+      "description": "<p>We're looking for a Senior Software Engineer to build highly-available and scalable data-driven services that provide value directly to customers and across our organization.</p><h2>Requirements</h2><ul><li>5+ years of software engineering experience writing distributed and streaming applications</li><li>Familiarity with functional programming and reactive programming techniques</li><li>Familiarity with object-oriented programming techniques and languages such as Go, Rust, or Python. Go is highly preferred.</li><li>Experience with message queue technologies such as Kafka, Google Pub/Sub, AWS Kinesis and delivery semantics such as Exactly-once and At-least once.</li><li>Proficiency with distributed databases, such as BigTable, Cloud Spanner, HBase, Cassandra, with an understanding of trade-offs on consistency, durability, and replication of using such technologies.</li><li>Ability to build horizontally scalable systems, with a high degree of availability and fault-tolerance leveraging techniques such as distributed locking, load-shedding, etc.</li><li>Design automated solutions for building, testing, monitoring, and deploying data streaming pipelines in a continuous integration environment</li><li>Strong communication skills and can explain complex technical concepts to other engineers, designers, and product managers.</li></ul><h2>Benefits</h2><ul><li>401k match</li><li>health</li><li>vision</li><li>dental</li></ul>",
+      "application_link": "https://job-boards.greenhouse.io/censys/jobs/8032351002",
+      "job_categories": ["Software Engineer Jobs"],
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "yoe_range": {
+        "min": 5,
+        "max": 5
+      },
+      "salary_range": {
+        "min": 138000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "year"
+      },
+      "date_posted": "2025-07-31",
+      "company_link": "drive.google.com",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQFLGWTPSHgHbg/company-logo_200_200/B56ZX3EExfGcAM-/0/1743606795674/censysio_logo?e=2147483647&v=beta&t=LK5z4z384OatiX8QyWPfaj7OznpXmr9L5MWKHvOye8U",
+      "job_board": "Greenhouse",
+      "job_board_link": "https://job-boards.greenhouse.io/censys",
+      "requirements_summary": "5+ years of software engineering experience, familiarity with functional and object-oriented programming, and experience with message queue technologies and distributed databases",
+      "visa_sponsored": true,
+      "company_data": {
+        "description_summary": "Censys is a leading provider of Internet intelligence and insights, offering comprehensive global mapping of Internet infrastructure. Specializing in attack surface management, threat hunting, and proactive cyber defense, Censys equips organizations with the tools to identify and mitigate risks effectively. Trusted by governments, Fortune 500 companies, and security providers worldwide, Censys leverages cutting-edge data-driven solutions to enhance cybersecurity posture and prevent breaches.",
+        "linkedin_link": "https://www.linkedin.com/company/censysio",
+        "size_range": {
+          "min": 51,
+          "max": 200
+        },
+        "industries": ["Tech, Software & IT Services"],
+        "subindustries": ["Cybersecurity", "Data Management & Analytics"]
+      },
+      "company_slug": "censys",
+      "job_slug": "senior-software-engineer-distributed-systems-9",
+      "locations": [
+        {
+          "city": null,
+          "region": "continental US",
+          "country": "United States"
+        },
+        {
+          "city": null,
+          "region": "Canada",
+          "country": "Canada"
+        }
+      ],
+      "meta": "COWYdhoCYAEaDDoKMjAyNS0wNy0zMSIOWgxojJuOOPXV7kKV2ds=",
+      "score": 8.32282543182373
+    }
+  ],
+  "total_count": 1197,
+  "company_count": 563,
+  "page": 1,
+  "limit": 10,
+  "total_pages": 120
+}
