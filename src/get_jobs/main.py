@@ -1,47 +1,71 @@
 import requests
 import boto3
-from supabase import create_client
+import logging
+import os
+from datetime import datetime, timezone
+import json
 
 # Configure logger
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-
-# Silence noisy logs
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 
-# Load AWS SSM client
+# AWS clients
 ssm = boto3.client("ssm")
+s3 = boto3.client("s3")
 
+# Load environment variable
+S3_BUCKET = os.environ["S3_BUCKET_NAME"]
+
+# Helper to fetch secrets from SSM
 def get_ssm_param(name, decrypt=True):
     return ssm.get_parameter(Name=name, WithDecryption=decrypt)['Parameter']['Value']
 
-# Load environment variables and secrets
-SUPABASE_TABLE = os.environ["SUPABASE_TABLE"]
-SUPABASE_URL = get_ssm_param(os.environ["SUPABASE_URL_SSM_PATH"])
-SUPABASE_KEY = get_ssm_param(os.environ["SUPABASE_KEY_SSM_PATH"])
-EXTERNAL_API_URL = get_ssm_param(os.environ["EXTERNAL_API_URL"])
-EXTERNAL_API_KEY = get_ssm_param(os.environ["EXTERNAL_API_KEY_SSM_PATH"])
-
-# Create Supabase client
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
-def fetch_external_data():
-    headers = {"Authorization": f"Bearer {EXTERNAL_API_KEY}"}
-    response = requests.get(EXTERNAL_API_URL, headers=headers)
-    response.raise_for_status()
-    return response.json()  # Expecting a list of user records or similar
+# Load secrets from SSM
+HIREBASE_URL = get_ssm_param(os.environ["HIREBASE_URL_SSM_PATH"])
+HIREBASE_KEY = get_ssm_param(os.environ["HIREBASE_KEY_SSM_PATH"])
 
 def lambda_handler(event, context):
     try:
-        data = fetch_external_data()
-        logger.info(f"Fetched {len(data)} record(s) from external API.")
+        # Prepare request payload
+        payload = {
+            "date_posted": "2025-07-23",
+            "keywords": ["aws"],
+            "limit": 5,
+            "locations": [{"country": "United States"}]
+        }
+        
+
+        headers = {
+            "Content-Type": "application/json",
+            "X-API-Key": HIREBASE_KEY
+        }
+
+        # Make the API request
+        response = requests.post(HIREBASE_URL, headers=headers, json=payload)
+        response.raise_for_status()
+        data = response.json()
+
+        # Create a timestamped S3 object key
+        now = datetime.now(timezone.utc)
+        key = f"{now.year}/{now.month:02}/{now.day:02}/{now.hour:02}.json"
+
+        # Print the result and intended S3 key path
+        print(f"Would save to: s3://{S3_BUCKET}/{key}")
+        print("HIREBASE Response:")
+        print(json.dumps(data, indent=2))
+
+        # Optionally write to S3
+        # s3.put_object(
+        #     Bucket=S3_BUCKET,
+        #     Key=key,
+        #     Body=json.dumps(data),
+        #     ContentType="application/json"
+        # )
+
+        return {"status": "success", "key": key}
+
     except Exception as e:
-        logger.error(f"Error fetching data: {str(e)}")
+        logger.error(f"Error: {e}")
         return {"status": "error", "message": str(e)}
-
-    for record in data:
-        # Customize as needed; assumes each `record` is already a dict
-        supabase.table(SUPABASE_TABLE).upsert(record).execute()
-
-    return {"status": "success", "inserted_records": len(data)}

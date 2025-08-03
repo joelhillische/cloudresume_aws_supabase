@@ -15,6 +15,7 @@ cat <<EOF > requirements.txt
 boto3
 requests
 supabase
+logging
 EOF
 
 # Step 3: Create Dockerfile
