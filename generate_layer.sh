@@ -38,8 +38,9 @@ docker rm $CONTAINER_ID
 
 # Step 6: Zip the layer
 cd python
+cp -v ../../src/s3_reader.py python
 zip -r9 ../layer.zip .
 cd ..
 
-echo "✅ Lambda layer built: $LAYER_NAME/layer.zip"
+echo "Lambda layer built: $LAYER_NAME/layer.zip"
 

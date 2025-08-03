@@ -83,5 +83,9 @@ module "log_input_lambda" {
   timeout                           = 30
   cloudwatch_logs_retention_in_days = 1
 
+  layers = [
+    aws_lambda_layer_version.all_libraries_layer.arn
+  ]
+
   tags = module.labels.tags
 }
