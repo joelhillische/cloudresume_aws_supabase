@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "job_input" {
-  bucket        = "${module.labels.id}-input-files"
+  bucket        = "${module.labels.id}-input-jobs"
   force_destroy = true
 
   tags = module.labels.tags

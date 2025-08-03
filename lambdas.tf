@@ -66,3 +66,22 @@ module "s3_trigger_lambda" {
 
   tags = module.labels.tags
 }
+
+module "log_input_lambda" {
+  source  = "terraform-aws-modules/lambda/aws"
+  version = "~> 8.0"
+
+  function_name   = "${module.labels.id}-log-input"
+  handler         = "main.lambda_handler"
+  runtime         = "python3.11"
+  build_in_docker = true
+  source_path     = "${path.root}/src/log_input"
+
+  create_role = false
+  lambda_role = aws_iam_role.lambda_exec.arn
+
+  timeout                           = 30
+  cloudwatch_logs_retention_in_days = 1
+
+  tags = module.labels.tags
+}
