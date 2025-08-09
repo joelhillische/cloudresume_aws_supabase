@@ -121,6 +121,8 @@ resource "aws_iam_policy" "step_function_invoke_lambda" {
         ],
         Resource = [
           module.write_jobs_to_supabase.lambda_function_arn,
+          module.process_categories.lambda_function_arn,
+          module.list_users.lambda_function_arn
           # Add more Lambdas here as you chain them
         ]
       }

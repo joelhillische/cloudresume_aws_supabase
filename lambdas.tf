@@ -95,3 +95,62 @@ module "write_jobs_to_supabase" {
 
   tags = module.labels.tags
 }
+
+module "list_users" {
+  source  = "terraform-aws-modules/lambda/aws"
+  version = "~> 8.0"
+
+  function_name   = "${module.labels.id}-list-users"
+  handler         = "main.lambda_handler"
+  runtime         = "python3.11"
+  build_in_docker = true
+  source_path     = "${path.root}/src/list_users"
+
+  create_role = false
+  lambda_role = aws_iam_role.lambda_exec.arn
+
+  timeout                           = 30
+  cloudwatch_logs_retention_in_days = 1
+
+  environment_variables = {
+    SUPABASE_USER_TABLE   = "users"
+    SUPABASE_URL_SSM_PATH = var.supabase_url_ssm_path
+    SUPABASE_KEY_SSM_PATH = var.supabase_key_ssm_path
+  }
+
+  layers = [
+    aws_lambda_layer_version.all_libraries_layer.arn
+  ]
+
+  tags = module.labels.tags
+}
+
+module "process_categories" {
+  source  = "terraform-aws-modules/lambda/aws"
+  version = "~> 8.0"
+
+  function_name   = "${module.labels.id}-process-categories"
+  handler         = "main.lambda_handler"
+  runtime         = "python3.11"
+  build_in_docker = true
+  source_path     = "${path.root}/src/process_categories"
+
+  create_role = false
+  lambda_role = aws_iam_role.lambda_exec.arn
+
+  timeout                           = 30
+  cloudwatch_logs_retention_in_days = 1
+
+  environment_variables = {
+    SUPABASE_TABLE        = "users"
+    SUPABASE_URL_SSM_PATH = var.supabase_url_ssm_path
+    SUPABASE_KEY_SSM_PATH = var.supabase_key_ssm_path
+    S3_BUCKET_NAME        = aws_s3_bucket.job_input.id
+  }
+
+  layers = [
+    aws_lambda_layer_version.all_libraries_layer.arn
+  ]
+
+  tags = module.labels.tags
+}

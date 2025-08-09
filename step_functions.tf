@@ -9,7 +9,7 @@ module "job_step_function" {
   role_arn = aws_iam_role.step_function_role.arn
 
   definition = jsonencode({
-    Comment = "Invoke write_jobs_to_supabase Lambda",
+    Comment = "Ingest jobs then evaluate categories/filters for all users",
     StartAt = "WriteJobsToSupabase",
     States = {
       WriteJobsToSupabase = {
@@ -22,8 +22,48 @@ module "job_step_function" {
             "s3_key.$"    = "$.s3_key"
           }
         },
+        Next = "ListUsers"
+      },
+      ListUsers = {
+        Type     = "Task",
+        Resource = "arn:aws:states:::lambda:invoke",
+        Parameters = {
+          FunctionName = module.list_users.lambda_function_arn,
+          Payload      = {}
+        },
+        ResultSelector = {
+          "user_ids.$" = "$.Payload.user_ids"
+        },
+        ResultPath = "$.users",
+        Next       = "MapUsers"
+      },
+      MapUsers = {
+        Type           = "Map",
+        ItemsPath      = "$.users.user_ids",
+        MaxConcurrency = 50, # tune based on Supabase limits
+        Parameters = {
+          "user_id.$" = "$$.Map.Item.Value"
+        },
+        Iterator = {
+          StartAt = "ProcessUser",
+          States = {
+            ProcessUser = {
+              Type     = "Task",
+              Resource = "arn:aws:states:::lambda:invoke",
+              Parameters = {
+                FunctionName = module.process_categories.lambda_function_arn,
+                Payload = {
+                  "user_id.$" = "$.user_id"
+                }
+              },
+              End = true
+            }
+          }
+        },
         End = true
       }
     }
   })
+
+  tags = module.labels.tags
 }
