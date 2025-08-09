@@ -120,7 +120,7 @@ resource "aws_iam_policy" "step_function_invoke_lambda" {
           "lambda:InvokeFunction"
         ],
         Resource = [
-          module.log_input_lambda.lambda_function_arn,
+          module.write_jobs_to_supabase.lambda_function_arn,
           # Add more Lambdas here as you chain them
         ]
       }
